@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Source+Sans+Pro&display=swap");
+
+:root {
+  --font-s: "Source Sans Pro", sans-serif;
+  --font-p: "Paytone One", sans-serif;
+  --black: #0d0d0e;
+  --white: #fff;
+  --violet: #d400b3;
+  --gray: #e5e5e5;
+  --black2: #262627;
+}
+* {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-s);
+  background: var(--black);
+  color: var(--white);
+}
+html.disable-forced-colors * {
+  forced-color-adjust: none;
+}
+.container {
+  max-width: 1210px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none !important;
+  color: inherit;
+  &:hover {
+    cursor: pointer;
+  }
+}
